@@ -174,7 +174,7 @@ Figure \ref{fig:depth} shows the performance of the decision trees with varying 
 For subsequent experiments with bounded depth trees, we choose a maximum tree depth of 10 as we found that this led to reasonable performance while reducing the model complexity and processing time.
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{trees_result.png}
+\includegraphics[width=\textwidth]{images/trees_result.png}
 \caption{Performance when increasing the depth of the decision trees.}\label{fig:depth}
 \end{figure}
 
@@ -199,7 +199,7 @@ As mentioned before, for the unbounded tree, we set $m=5,000$ and the remaning p
 Figure \ref{fig:prune_unlimited} shows the effect of pruning on the performance of the unbounded tree. 
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{prune-unlimited.png}
+\includegraphics[width=\textwidth]{images/prune-unlimited.png}
 \caption{Effect of pruning the unbounded decision tree.}\label{fig:prune_unlimited}
 \end{figure}
 
@@ -217,7 +217,7 @@ For the bounded tree we set $m=500$ and the remaining parameters as follows:
 Figure \ref{fig:prune_10} shows the effect of pruning on the accuracy of the bounded tree.
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{prune-depth10.png}
+\includegraphics[width=\textwidth]{images/prune-depth10.png}
 \caption{Effect of pruning the bounded decision tree.}\label{fig:prune_10}
 \end{figure}
 
@@ -234,7 +234,7 @@ The remainder of the tree is then used for classifying the remaining 10\% of the
 
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{boss.png}
+\includegraphics[width=\textwidth]{images/boss.png}
 \caption{Pruned tree with 25 terminal nodes and max depth of 10.}\label{fig:tree}
 \end{figure}
 
@@ -247,12 +247,12 @@ For random forest, we vary number of trees by 10 over a range of 10 to 100. More
 For the performance of the random forests with unbounded and depth bounded trees, please refer to figure \ref{fig:randomforestunbounded}  and figure \ref{fig:randomforestbounded}, respectively. One interesting point to note is that when we use bounded depth trees, the single decision tree performs better than the random forest.
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{RF.png}
+\includegraphics[width=\textwidth]{images/RF.png}
 \caption{Random forest result with increasing number of unbounded depth  trees.}\label{fig:randomforestunbounded}
 \end{figure}
 
 \begin{figure}[ht!]
-\includegraphics[width=\textwidth]{RF_Bounded.png}
+\includegraphics[width=\textwidth]{images/RF_Bounded.png}
 \caption{Random forest result with increasing number of trees upto depth 10.}\label{fig:randomforestbounded}
 \end{figure}
 
